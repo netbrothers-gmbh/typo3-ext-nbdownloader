@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'NetBrothers Downloader',
-	'description' => 'download files with counter',
+	'description' => 'Download files with counter, category, licence',
 	'category' => 'plugin',
 	'author' => 'Stefan Wessel',
 	'author_email' => 'info@netbrothers.de',
@@ -21,7 +21,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'uploadfolder' => '1',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '0.0.1',
+	'version' => '0.0.2',
 	'constraints' => array(
 		'depends' => array(
 			'php' => '5.3.3-5.6.99',
