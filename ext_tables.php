@@ -80,4 +80,3 @@ $TCA['tt_content']['types']['list']['subtypes_addlist'][$_EXTKEY.'_download']='p
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPiFlexFormValue($_EXTKEY.'_download', 'FILE:EXT:' . $_EXTKEY . '/Configuration/FlexForms/Settings.xml');            // new!
 
 
-include_once(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY) .'Classes/Helper/class.tx_nbdownloader_addFieldsToFlexForm.php');
