@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-11-25T12:01:09Z" product-name="nbdownloader">
+        <header/>
+        <body>
+            <trans-unit id="tx_nbdownloader_domain_model_download">
+                <source>Download</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.filename">
+                <source>Filename</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.source">
+                <source>Source</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.counter">
+                <source>Counter</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.description">
+                <source>Description</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.abstract">
+                <source>Abstract</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.author">
+                <source>Author</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.version">
+                <source>Version</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.public_date">
+                <source>Public Date</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.cat">
+                <source>Cat</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_category">
+                <source>Category</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_category.category">
+                <source>Category</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.sheettitle.1">
+                <source>Settings</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.sheettitle.2">
+                <source>Licence</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.sheettitle.3">
+                <source>Display</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.file">
+                <source>File</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.listFile">
+                <source>Category</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.singlePid">
+                <source>Page with single view</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.downloadName">
+                <source>Use this name by download for file</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.useLicence">
+                <source>Has to accept licence before download starts.</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.licence">
+                <source>Licence</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.licence.I.0">
+                <source>Licence 1 (GNU)</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.licence.I.1">
+                <source>Licence 2 (GNU)</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.licence.I.2">
+                <source>no licence</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.renderStyle">
+                <source>Style</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.renderStyle.I.0">
+                <source>category</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.renderStyle.I.1">
+                <source>single</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.useAbstract">
+                <source>Show Abstract</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.useDescription">
+                <source>Show Description</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

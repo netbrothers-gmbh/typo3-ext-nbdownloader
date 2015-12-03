@@ -1,0 +1,22 @@
+
+plugin.tx_nbdownloader {
+	view {
+		templateRootPath = {$plugin.tx_nbdownloader.view.templateRootPath}
+		partialRootPath = {$plugin.tx_nbdownloader.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_nbdownloader.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_nbdownloader.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+
+    settings {
+        # image of developer team
+        imgDeveloper = typo3conf/ext/nbdownloader/Resources/Public/Icons/nb-ball.jpg
+        # name developer team
+        developerName = NetBrothers
+    }
+}

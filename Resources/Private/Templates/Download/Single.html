@@ -1,0 +1,20 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+    <f:render partial="Download/Item.html" arguments="{download:download}" />   
+
+    <f:if condition="{settings.useLicence}">
+        <f:then>
+            <f:if condition="{settings.downloadLicence}==1">
+                <f:then>
+                    <f:render partial="Licence/Licence1.html" />    
+                </f:then>
+            </f:if>
+            <f:if condition="{settings.downloadLicence}==2">
+                <f:then>
+                    <f:render partial="Licence/Licence2.html" />    
+                </f:then>
+            </f:if>
+        </f:then>
+    </f:if>
+</f:section>

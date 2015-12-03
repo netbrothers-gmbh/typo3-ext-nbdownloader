@@ -1,0 +1,69 @@
+
+<table class="tx-nbdownloader" >
+	<tr>
+		<td>
+			<f:translate key="tx_nbdownloader_domain_model_download.filename" />
+		</td>
+		<td>
+		{download.filename}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_nbdownloader_domain_model_download.source" />
+		</td>
+		<td>
+				<a href="{download.source.originalResource.publicUrl}">
+					{download.source.originalResource.name}
+				</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_nbdownloader_domain_model_download.counter" />
+		</td>
+		<td>
+		{download.counter}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_nbdownloader_domain_model_download.description" />
+		</td>
+		<td>
+		{download.description}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_nbdownloader_domain_model_download.abstract" />
+		</td>
+		<td>
+		{download.abstract}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_nbdownloader_domain_model_download.author" />
+		</td>
+		<td>
+		{download.author}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_nbdownloader_domain_model_download.version" />
+		</td>
+		<td>
+		{download.version}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_nbdownloader_domain_model_download.public_date" />
+		</td>
+		<td>
+		{download.publicDate -> f:format.date()}
+		</td>
+	</tr>
+</table>

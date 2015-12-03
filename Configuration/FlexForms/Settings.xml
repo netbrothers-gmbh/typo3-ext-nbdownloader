@@ -1,0 +1,166 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:tx_nbdownloader.settings.sheettitle.1</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <switchableControllerActions>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:nbdownloader.renderStyle
+                            </label>
+                            <onChange>reload</onChange>
+                            <config>
+                                <type>select</type>
+                                <size>1</size>
+                                <maxitems>1</maxitems>
+                                <minitems>1</minitems>
+                                <items>
+                                    <numIndex index="0">
+                                        <numIndex index="0">LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:nbdownloader.renderStyle.I.0</numIndex>
+                                        <numIndex index="1">Category->single;Download->download</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1">
+                                        <numIndex index="0">LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:nbdownloader.renderStyle.I.1</numIndex>
+                                        <numIndex index="1">Download->single;Download->download</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>Download->single;Download->download</default>
+                            </config>
+                        </TCEforms>
+                    </switchableControllerActions>
+                    
+                    
+                    <settings.file>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:tx_nbdownloader.settings.file
+                            </label>
+                            <displayCond>FIELD:switchableControllerActions:=:Download->single;Download->download</displayCond>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>tx_nbdownloader_domain_model_download</allowed>
+                                <size>1</size>
+                                <maxitems>1</maxitems>
+                                <minitems>1</minitems>
+                                <show_thumbs>1</show_thumbs>
+                                <wizards>
+                                    <suggest>
+                                        <type>suggest</type>
+                                    </suggest>
+                                </wizards>
+                            </config>
+                        </TCEforms>
+                    </settings.file>
+          
+                    <settings.category>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:tx_nbdownloader_domain_model_category
+                            </label>
+                            <displayCond>FIELD:switchableControllerActions:=:Category->single;Download->download</displayCond>
+                            <config>
+                                <type>group</type>
+                                <internal_type>db</internal_type>
+                                <allowed>tx_nbdownloader_domain_model_category</allowed>
+                                <size>1</size>
+                                <maxitems>1</maxitems>
+                                <minitems>1</minitems>
+                                <show_thumbs>1</show_thumbs>
+                                <wizards>
+                                    <suggest>
+                                        <type>suggest</type>
+                                    </suggest>
+                                </wizards>
+                            </config>
+                        </TCEforms>
+                    </settings.category>
+                </el>
+            </ROOT>
+        </sDEF>
+        
+        <Licence>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:tx_nbdownloader.settings.sheettitle.2</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.useLicence>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:nbdownloader.useLicence
+                            </label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </settings.useLicence>                
+                    <settings.downloadLicence>
+                        <TCEforms type="array">
+                            <label>
+                                LLL:EXT:nbdownloader/Resources/Private/Language/locallang_db.xlf:nbdownloader.downloadLicence
+                            </label>
+                            <config>
+                                <type>select</type>
+                                <size>1</size>
+                                <maxitems>1</maxitems>
+                                <minitems>1</minitems>
+                                <items type="array">
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:nbdownloader.licence.I.0</numIndex>
+                                        <numIndex index="1">1</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:nbdownloader.licence.I.1</numIndex>
+                                        <numIndex index="1">2</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:nbdownloader.licence.I.2</numIndex>
+                                        <numIndex index="1">0</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>0</default>
+                            </config>
+                        </TCEforms>
+                    </settings.downloadLicence>
+                </el>
+            </ROOT>
+        </Licence>
+        
+        <Display>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:tx_nbdownloader.settings.sheettitle.3</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.useAbstract>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:nbdownloader.useAbstract
+                            </label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </settings.useAbstract>
+                    <settings.useDescription>
+                        <TCEforms>
+                            <label>
+                                LLL:EXT:nbdownloader/Resources/Private/Language/locallang.xlf:nbdownloader.useDescription
+                            </label>
+                            <config>
+                                <type>check</type>
+                            </config>
+                        </TCEforms>
+                    </settings.useDescription>
+                </el>
+            </ROOT>
+        </Display>        
+    </sheets>
+</T3DataStructure>

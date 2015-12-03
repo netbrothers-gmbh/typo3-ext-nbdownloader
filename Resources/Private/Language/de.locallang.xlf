@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-11-25T12:01:09Z" product-name="nbdownloader">
+        <header/>
+        <body>
+            <trans-unit id="tx_nbdownloader_domain_model_download" approved="yes">
+                <source>Download</source> 
+                <target state="translated">Download</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.filename" approved="yes">
+                <source>Filename</source> 
+                <target state="translated">Dateiname</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.source" approved="yes">
+                <source>Source</source> 
+                <target state="translated">Datei</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.counter" approved="yes">
+                <source>Counter</source> 
+                <target state="translated">Anzahl Downloads</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.description" approved="yes">
+                <source>Description</source> 
+                <target state="translated">Beschreibung (lang)</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.abstract" approved="yes">
+                <source>Abstract</source> 
+                <target state="translated">Beschreibung (kurz)</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.author" approved="yes">
+                <source>Author</source> 
+                <target state="translated">Author</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.version" approved="yes">
+                <source>Version</source> 
+                <target state="translated">Version</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.public_date" approved="yes">
+                <source>Public Date</source> 
+                <target state="translated">Veröffentlichungsdatum</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.cat" approved="yes">
+                <source>Cat</source> 
+                <target state="translated">Kategorie</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_category" approved="yes">
+                <source>Category</source> 
+                <target state="translated">Kategorie</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_category.category" approved="yes">
+                <source>Category</source> 
+                <target state="translated">Kategorie</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.sheettitle.1" approved="yes">
+                <source>Settings</source> 
+                <target state="translated">Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.sheettitle.2" approved="yes">
+                <source>Licence</source> 
+                <target state="translated">Lizenz</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.sheettitle.3" approved="yes">
+                <source>Display</source> 
+                <target state="translated">Anzeige</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.file" approved="yes">
+                <source>File</source> 
+                <target state="translated">Datei</target>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.listFile">
+                <source>category</source>
+                <target state="translated">Kategorie</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.downloadName" approved="yes">
+                <source>Use this name by download for file</source> 
+                <target state="translated">Speichername des Downloads</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.useLicence" approved="yes">
+                <source>Has to accept licence before download starts.</source> 
+                <target state="translated">Muss Lizenz vor dem Download zustimmen.</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.licence" approved="yes">
+                <source>Licence</source> 
+                <target state="translated">Lizenz</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.licence.I.0" approved="yes">
+                <source>Licence 1 (GNU)</source> 
+                <target state="translated">Lizenzvorlage 1 (GNU)</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.licence.I.1" approved="yes">
+                <source>Licence 2 (GNU)</source> 
+                <target state="translated">Lizenzvorlage 2 (GNU)</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.licence.I.2" approved="yes">
+                <source>no licence</source> 
+                <target state="translated">keine Lizenz</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.renderStyle" approved="yes">
+                <source>Style</source> 
+                <target state="translated">Style</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.renderStyle.I.0" approved="yes">
+                <source>category</source> 
+                <target state="translated">Kategorie</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.renderStyle.I.1" approved="yes">
+                <source>single</source> 
+                <target state="translated">Einzelansicht</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.useAbstract" approved="yes">
+                <source>Show Abstract</source> 
+                <target state="translated">zeige Kurzbeschreibung (abstract)</target>
+            </trans-unit>
+            <trans-unit id="nbdownloader.useDescription" approved="yes">
+                <source>Show Description</source> 
+                <target state="translated">zeige Langbeschreibung (description)</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,31 @@
+/* 
+    Created on : 27.11.2015, 08:18:57
+    Author     : Stefan Wessel <info@netbrothers.de>
+*/
+
+
+#tx_nb_downloaderLicence {
+    display: none;
+    z-index:999;
+}
+
+#tx_nb_downloader_overlay{ 
+    position:fixed; 
+    top:0; 
+    left:0; 
+    background:rgba(0,0,0,0.6); 
+    z-index:100; 
+    width:100%; 
+    height:100%; 
+    display:none; 
+}
+
+.tx_nb_downloader_download {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee; 
+    border-radius: 15px !important;
+    margin-bottom: 30px;
+    clear: both;
+    padding:23px;
+}

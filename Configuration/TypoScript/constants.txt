@@ -1,0 +1,15 @@
+
+plugin.tx_nbdownloader {
+	view {
+		# cat=plugin.tx_nbdownloader/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:nbdownloader/Resources/Private/Templates/
+		# cat=plugin.tx_nbdownloader/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:nbdownloader/Resources/Private/Partials/
+		# cat=plugin.tx_nbdownloader/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:nbdownloader/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_nbdownloader//a; type=string; label=Default storage PID
+		storagePid =
+	}
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-11-25T12:01:09Z" product-name="nbdownloader">
+        <header/>
+        <body>
+            <trans-unit id="tx_nbdownloader_domain_model_download">
+                <source>Download</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.filename">
+                <source>Filename</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.source">
+                <source>Source</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.downloadName">
+                <source>Name for Download</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.abstract">
+                <source>Abstract</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.description">
+                <source>Description</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.counter">
+                <source>Counter</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.author">
+                <source>Author</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.version">
+                <source>Version</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.public_date">
+                <source>Public Date</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_download.cat">
+                <source>Cat</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_category">
+                <source>Category</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader_domain_model_category.category">
+                <source>Category</source>
+            </trans-unit>
+            <trans-unit id="tx_nbdownloader.settings.pageList">
+                <source>Storage</source>
+            </trans-unit>
+
+            <trans-unit id="nbdownloader.pluginTitle">
+                <source>NetBrothers Downloader</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.pluginDescription">
+                <source>Download file with counter</source>
+            </trans-unit>
+            
+            <trans-unit id="nbdownloader.templatePath">
+                <source>Path to custom fluid template. Leave blank for standard</source>
+            </trans-unit>
+            <trans-unit id="nbdownloader.cssPath">
+                <source>Path to custom your custom css file. Leave blank for standard</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,58 @@
+<div class="container bg-grey rounded-3x margin-bottom-30" style="padding:23px;" id="tx_nb_downloader_download"> 
+    <div class="row">
+        <div class="col-md-12">
+            <div class="item active">
+                <ul class="list-inline grid-boxes-news">
+                    <li><i class="fa fa-pencil"></i>
+                    <f:if condition='{download.author} != ""'>
+                        <f:then>{download.author}</f:then>
+                        <f:else>{settings.developerName}</f:else>
+                    </f:if>
+                    </li>
+                    <li>|</li>
+                    <li><i class="fa fa-calendar"></i>
+                    <f:format.date date="{download.publicDate}" format="d.m.Y" />                           
+                    </li>
+                    <li>|</li>
+                    <li><i class="fa  fa-list-ol"></i>
+                        {download.version}                   
+                    </li>
+                    <li>|</li>
+                    <li><i class="fa fa-paperclip"></i>
+                        {download.cat.category}
+                    </li>
+                    <li>|</li>
+                    <li><i class="fa fa-cloud-download"></i>
+                        {download.counter}
+                    </li>
+                </ul>
+                <f:link.action 
+                    controller="Download" 
+                    action="download" 
+                    arguments="{download : download}" 
+                    class="linkNbDownloader"
+                    additionalAttributes='{author: "{download.author}", authorDefaut:"{settings.developerName}"}'
+                    >
+                    <h3>
+                        <i class="icon-custom rounded-x icon-bg-u icon-line fa fa-cloud-download"></i>
+                        {download.filename}
+                    </h3>
+                </f:link.action>
+            </div>
+        </div>
+    </div>
+    <f:if condition="{settings.useAbstract}">
+        <div class="row">
+            <div class="col-md-12">
+                <f:format.html>{download.abstract}</f:format.html>    
+            </div>
+        </div>   
+    </f:if>
+    <f:if condition="{settings.useDescription}">
+        <div class="row">
+            <div class="col-md-12">
+                <f:format.html>{download.description}</f:format.html>    
+            </div>
+        </div>   
+    </f:if>
+</div>

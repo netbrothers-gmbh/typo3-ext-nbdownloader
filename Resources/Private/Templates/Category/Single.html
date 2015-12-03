@@ -1,0 +1,21 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+    <f:for each="{downloads}" as="download">
+        <f:render partial="Download/Item.html" arguments="{download:download}" />   
+    </f:for>
+    <f:if condition="{settings.useLicence}">
+        <f:then>
+            <f:if condition="{settings.downloadLicence}==1">
+                <f:then>
+                    <f:render partial="Licence/Licence1.html" />    
+                </f:then>
+            </f:if>
+            <f:if condition="{settings.downloadLicence}==2">
+                <f:then>
+                    <f:render partial="Licence/Licence2.html" />    
+                </f:then>
+            </f:if>
+        </f:then>
+    </f:if>
+</f:section>

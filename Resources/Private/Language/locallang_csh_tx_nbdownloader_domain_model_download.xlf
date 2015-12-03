@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-11-25T12:01:09Z" product-name="nbdownloader">
+        <header/>
+        <body>
+            <trans-unit id="filename.description">
+                <source>filename</source>
+            </trans-unit>
+            <trans-unit id="source.description">
+                <source>source</source>
+            </trans-unit>
+            <trans-unit id="abstract.description">
+                <source>abstract</source>
+            </trans-unit>
+            <trans-unit id="description.description">
+                <source>description</source>
+            </trans-unit>
+            <trans-unit id="counter.description">
+                <source>counter</source>
+            </trans-unit>
+            <trans-unit id="author.description">
+                <source>author</source>
+            </trans-unit>
+            <trans-unit id="version.description">
+                <source>version</source>
+            </trans-unit>
+            <trans-unit id="public_date.description">
+                <source>publicDate</source>
+            </trans-unit>
+            <trans-unit id="cat.description">
+                <source>category</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
+
+		
+
